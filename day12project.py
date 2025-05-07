@@ -6,7 +6,7 @@ print(guess_num)
 print("Welcome to the Number Guessing Game")
 print("Guess the number between 1 and 100")
 difficulty = str(input("Choose a difficulty. Type 'easy' or 'hard': ").lower())
-number = random.choice(range(1, 100))
+number = random.choice(range(1, 101))
 
 def game(attempts):
     while attempts > 0:
